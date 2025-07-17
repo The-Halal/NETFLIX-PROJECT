@@ -190,3 +190,147 @@
         font-size: 1.4rem;
     }
 }
+
+
+.pink-shape{
+    background-color: #E40A17;
+    height: 10px;
+}
+
+/* SECTION TWO */
+
+.sect-2{
+    background-color: #000000;
+    padding: 30px;
+    height: 140vh;
+}
+
+
+.carousel-movie{
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 3em;
+    margin-bottom: 30px;
+}
+
+.trending{
+    color: #ffffff;
+    font-size: 1.8em;
+    font-weight: 600;
+    margin-left: 100px;
+    margin-bottom:30px;
+}
+.movie{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius:8px;
+    cursor: pointer;
+}
+
+
+.reason{
+    color: #ffffff;
+    font-size: 1.8em;
+    font-weight: 600px;
+    /* margin-left: 10x; */
+}
+.cards{
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card-wrap{
+    display: flex;
+    gap: 1em;
+}
+.card{
+    background: linear-gradient(180deg, #1A2143, #1D1A34, #1F1222);
+    width: 270px;
+    height: 270px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2{
+    color: #ffffff;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: #B6B6BE;
+    font-size: .8em;
+}
+
+@media(max-width: 1258px){
+    .sect-2{
+        height: 200vh;
+    }
+    .cards{
+        width: 80%;
+        flex-direction: column;
+    }
+
+    .card-wrap{
+        justify-content: center;
+    }
+    .card{
+        width: 400px;
+        height: 230px;
+    }
+}
+
+@media(max-width: 940px){
+
+    .cards{
+        width: 100%;
+    }
+    .card-wrap{
+        flex-direction: column;
+    }
+
+    .card{
+        margin: auto;
+        width: 600px;
+        height: 200px;
+    }
+}
+
+@media(max-width: 900px){
+    .sect-2{
+        height: 230vh;
+    }
+}
+@media(max-width: 700px){
+    .card{
+        width: 500px;
+    }
+}
+
+@media(max-width: 547px){
+    /* .cards{
+        width: 80%;
+    } */
+    .card{
+        width: 400px;
+    }
+}
+
+@media(max-width: 470px){
+    .card{
+        width: 350px;
+    }
+}
+
+@media(max-width: 400px){
+    .card{
+        width: 300px;
+    }
+}
