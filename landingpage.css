@@ -71,12 +71,10 @@
 }
 
 .group{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 38%;
     margin: auto;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     gap: 1em;
 }
 
